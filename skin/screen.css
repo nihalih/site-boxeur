@@ -1,0 +1,288 @@
+h1,h2 {
+	text-align: center;
+}
+
+
+h3{
+	font-style: italic;
+}
+
+/***********************Menu ***************/
+.menu {
+	background-color: #333333;
+	height: 80px;
+	border: 2px solid;
+	width: 100%;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+	padding-top: 10px;
+}
+.menu ul li a {
+	
+	display:block;
+    background: #333333;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	padding: 15px;
+	border:2px solid;
+	box-shadow: 2px 2px white;
+	
+
+}
+
+.menu ul li a:hover{
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+	background-color:#EFE1CE;
+	color:black;
+	box-shadow: 2px 2px black;
+
+	
+}
+/*******************************/
+
+/*******Galerie ********/
+.galerie {
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	border-radius: 5px;
+	box-shadow: 0 0 18px 15px rgba(0, 0, 0, 0.4);
+	padding: 66px 10px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 40px 10%;
+	position: relative;
+
+}
+.galerie .grille{
+	border: 2px solid;
+	background: #e2e2e2;
+	
+}
+.galerie a{
+
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.galerie .grille:hover{
+	background-color: #EFE1CE;
+}
+.galerie img{
+	width: 70%;
+	box-shadow:10px 10px 10px #aaaaaa;
+	display: block;
+	margin:auto;
+	
+}
+.galerie h3 {
+	text-align: center;
+	font-size: large;
+}
+
+
+/************************************/
+
+/**************** Page boxeur ***************/
+.boxeurPage {
+
+	margin: auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 3px;
+    box-shadow: 0 0 18px 15px rgba(0, 0, 0, 0.4);
+    padding: 60px 30px;
+    box-sizing: border-box;
+    width: 50%;
+    position: relative;
+
+}
+.boxeurPage p{
+	text-align: center;
+    margin: 26px 0px 0px 15px;
+
+}
+.boxeurPage img {
+	width: 90%;
+	margin:auto;
+}
+
+/************************* Différents formulaires ************/
+.formulaire {
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 70px 250px;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 80px 25%;
+	position: relative;
+}
+.formulaire h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 29px;
+}
+.formulaire button{
+	width: 95%;
+}
+.textForm {
+	padding-bottom: 19px;
+}
+.textForm p {
+	font-style: italic;
+}
+/*****************************************/
+
+
+/********************* Erreur et feedback*****************/
+.erreur {
+	color :red;
+	font-style: italic;
+}
+
+.postiveFeedback p{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border-radius: 1em;
+	margin: 1em auto;
+	max-width: 40%;
+	padding: .5em;
+}
+.negativeFeedback p{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: crimson;
+	border-radius: 1em;
+	margin: 1em auto;
+	max-width: 40%;
+	padding: .5em;
+}
+/***************************/
+
+/*****************Recherche ********************/
+.recherche {
+	position: relative;
+	width: 95%;
+}
+.recherche input{
+	width: 65%;
+	height: 21px;
+}
+.recherche p {
+	float: right;
+	align-items: center;
+}
+.recherche button{
+	font-size: 1em;
+	float: right;
+	width: 32%;
+	height: 26px;
+}
+/************************************************/
+
+/************************Trie*******************************/
+
+.trie {
+	position: relative;
+	width: 25%;
+}
+.trie fieldset {
+	border:solid #2a303b;
+}
+.trie button {
+	font-size: 1em;
+	float: right;
+	width: 70%;
+	height: 26px;
+}
+
+/************************Boutton ****************/
+button {
+	height: 32px;
+	background-color: #2a303b;
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: 400;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #EFE1CE;
+	box-shadow: 2px 2px black;
+}
+
+button:hover{
+	background-color:#464242;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+	box-shadow: 3px 3px black;
+} 
+/**********************************/
+
+.avertissement {
+	color:red;
+	font-weight: bold;
+}
+
+/**********************************/
+
+/**********deconnexion ********/
+
+.buttondeco button{
+	display: flex;
+	font-size: 1em;
+	float: left;
+	width: 10%;
+	height: 26px;
+	border-radius: 10px;
+}
+
+.buttondeco button:hover{
+	background-color: #CD5C5C;
+}
+
+/*************************/
+
+/******************Button modifier et supprimer ********/
+.modifandsup ul {
+	list-style: none;
+}
+.modifandsup ul li a 
+{
+	display:block;
+    background: #333333;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid;
+	box-shadow: 2px 2px white;
+	font-size: larger;
+	width: 40%;
+	margin: auto;
+}
+.modifandsup ul li a:hover{
+	background-color: #EFE1CE;
+	color: black;
+	
+}
+
+/*************************************/
+
+body {
+	background: #EDF1FF;
+}
+	
+	
